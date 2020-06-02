@@ -14,7 +14,6 @@ if(validResponse(userInput)) {
     return {
         // error: console.error(userInput),
            error: console.error(userInput, 'incorrect syntax, note not added')
-            
     };
 };
 console.log(userInput)
