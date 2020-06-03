@@ -7,7 +7,7 @@ const Note  = require('./Notes');
 let input = new Input(process.argv);
 const isValidInput = input.isValid();
 
-isValidInput ? Notes.execute(input) : console.log('failure to add');
+isValidInput ? Note.execute(input) : console.log('failure to add');
 
 
 
