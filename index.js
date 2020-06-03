@@ -4,15 +4,12 @@
 const Input = require('./Input');
 const Note  = require('./Notes');
 
+
+
 let input = new Input(process.argv);
 const isValidInput = input.isValid();
 
 isValidInput ? Note.execute(input) : console.log('failure to add');
-
-
-
-
-
 
 
 //I will delete all this mess later, I'm just tring to get it working.
