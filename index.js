@@ -10,7 +10,8 @@ mongoose.connect('mongodb://localhost:27017/notes', {
 const input = new Input(process.argv);
 
 if(input.isValid()) {
-        Note.execute(input)
+        Note
+        .execute(input)
         .then(() => mongoose.connection.close());
 } else {
         console.log('Opps, something went wrong');
