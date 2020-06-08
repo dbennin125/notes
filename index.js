@@ -17,4 +17,3 @@ if(input.isValid()) {
         console.log('Opps, something went wrong');
 }
 // it works!! DB is updated! Success!
-
